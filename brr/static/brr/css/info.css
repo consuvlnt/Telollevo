@@ -1,0 +1,30 @@
+#info {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-oferta {
+    margin: 20px;
+}
+.info-oferta img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+}
+@media (min-width:480px){
+    .info-oferta{
+        width: 40%;
+    }
+}
+@media (min-width:1024px){
+    .info-oferta{
+        width: auto;
+    }
+}

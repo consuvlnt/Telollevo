@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Te lo llevo</title>
+   {% load static %}
+    <link rel="stylesheet" href={% static "brr/css/Estilo.css" %}>
+    <link rel="stylesheet" href={% static "brr/css/banner.css" %}>
+    <link rel="stylesheet" href={% static "brr/css/fontello.css" %}>
+    <link rel="stylesheet" href={% static "brr/css/contacto.css" %}>
+    <link rel="stylesheet" href={% static "brr/css/Formulario.css" %}>
+    <link rel="stylesheet" href={% static "brr/css/info.css" %}>  
+    <link rel="stylesheet" href={% static "brr/css/menu.css" %}>
+    <link rel="stylesheet" href={% static "brr/css/Pestañas.css" %}>  
+    <link rel="stylesheet" href={% static "brr/css/blog.css" %}>
+   
+
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="icon-food"> Te lo llevo</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-list" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="">Inicio</a>
+                <a href="frutas.html">Frutas</a>
+                <a href="verduras.html">Verduras</a>
+                <a href="frutosecos.html">Frutos Secos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <main>
+            <section id="banner">
+                
+                <img src={% static "brr/img/lavega.jpg" %} >
+                <div class="contenedor">
+                <h2> Ven a vivir esta nueva experiencia, productos frescos en la comodidad de tu hogar.</h2>
+                <p>¿Cómo lo hacemos?</p>
+                <a href="a">Leer más</a>
+            </div>
+            </section>
+            <section id="Bienvenidos">
+            <h2>Te  lo Llevo </h2>
+            <p></p>
+        </section>
+<section id="blog">
+ <h3>Conoce la variedad de nuestros productos</h3>
+ <div class="contenedor">
+     <article>
+            <img src={% static "brr/img/Frutas.jpg" %}>
+            <h4>Frutas</h4>
+     </article>
+     <article>
+            <img src={% static "brr/img/frutos secos.jpg" %} >
+            <h4>Frutos secos</h4>
+     </article>
+     <article>
+         <img src={% static "brr/img/Verduras.jpg" %}
+         <h4>Verduras </h4>
+     </article>
+   
+ </div>
+
+</section>
+        </main>
+        <section id="info">
+                <h3>Las ofertas del mes</h3>
+                <div class="contenedor">
+                    <div class="info-oferta">
+                        <img src={% static "brr/img/naranja1.jpg" alt="" %}>
+                        <h4>$900 el kilo</h4>
+                    </div>
+                    <div class="info-oferta">
+                        <img src={% static "brr/img/mora.jpg" alt="" %}>
+                        <h4>$1200 el kilo</h4>
+                    </div>
+                    <div class="info-oferta">
+                        <img src={% static "brr/img/paltas.jpg" alt="" %}>
+                        <h4>$990 el kilo</h4>
+                    </div>
+                    <div class="info-oferta">
+                        <img src={% static "brr/img/almendritas.jpg" alt="" %}>
+                        <h4>$500 el kilo</h4>
+                    </div>
+                </div>
+            </section>
+        </main>
+   <footer>
+       <div class="contenedor">
+           <p class="copy">Te lo llevo &copy; 2019</p>
+           <li><a class="icon-facebook" href="https://es-la.facebook.com/"></a></li
+               <a class="icon-whatsapp"href=""></a>
+          <li><a class= "icon-gplus" href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin"></a></li>
+          <li> <a class="icon-Instagram"href="https://www.instagram.com/accounts/login/?hl=es-la"></a></li>
+       </div>
+   </footer>
+   
+
+  
+</body>
+</html>
